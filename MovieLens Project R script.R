@@ -38,7 +38,6 @@ library(caret)
 library(hexbin)
 library(tibble)
 
-
 # MovieLens 10M dataset:
 # https://grouplens.org/datasets/movielens/10m/
 # http://files.grouplens.org/datasets/movielens/ml-10m.zip
@@ -300,13 +299,3 @@ rmse_results <- bind_rows(rmse_results,
 
 ## Final results
 rmse_results
-
-
-## Appendix
-# For future debugging purposes
-print("Version Info")
-version
-
-
-
-
